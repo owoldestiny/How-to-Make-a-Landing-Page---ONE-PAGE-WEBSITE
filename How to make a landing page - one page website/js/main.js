@@ -1,1 +1,5 @@
-// WRITE JQUERY HERE
+$(document).ready(function() {
+    $('.menuIcon').click(function() {
+        $('body').toggleClass('menuShown');
+    });
+});
